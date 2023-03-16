@@ -34,7 +34,7 @@ module.exports = {
         ],
         semi: [
             'warn',
-            'never'
+            'always'
         ],
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
