@@ -32,7 +32,11 @@ export const Inputter = ({ onSubmit }: Props) => {
     });
 
     const submitHandler = (val: Inputs) => {
-        onSubmit(val);
+        onSubmit({
+            ...val,
+            tecList: val.tecList.sort(((a: string, b: string) => Number(a) - Number(b))),
+            tsList: val.tsList.sort(((a: string, b: string) => Number(a) - Number(b)))
+        });
         reset();
     };
 

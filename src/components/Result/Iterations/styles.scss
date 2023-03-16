@@ -1,0 +1,18 @@
+#result-iterations {
+    table {
+        tr {
+            &.sums td {
+                font-weight: bold;
+            }
+
+            th {
+                padding: 0 1rem;
+                text-align: center;
+            }
+    
+            td {
+                text-align: center;
+            }
+        }
+    }
+}

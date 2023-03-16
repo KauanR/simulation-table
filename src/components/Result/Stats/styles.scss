@@ -1,0 +1,19 @@
+#result-stats {
+    width: max-content;
+    margin: 0 auto;
+
+    td {
+        border: 0;
+
+        &.label {
+            font-weight: bold;
+        }
+    
+        &.value {
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+        }
+    }
+
+}
