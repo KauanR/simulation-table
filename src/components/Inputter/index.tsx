@@ -26,8 +26,9 @@ export const Inputter = ({ onSubmit }: Props) => {
         reValidateMode: 'onChange',
         mode: 'onChange',
         defaultValues: {
-            tecList: [],
-            tsList: []
+            simulationTime: 180,
+            tecList: ['10', '12', '15'],
+            tsList: ['9', '10', '11']
         }
     });
 
