@@ -6,7 +6,7 @@
 https://kauanr.github.io/queue-theory/
 
 ## Sobre
-Aplicação feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
+Aplicação web que simula a teoria das filas e sua respectiva tabela. Feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
 <br/>
 As tecnologias usadas no desenvolvimento foram:
 * [React](https://reactjs.org/)
