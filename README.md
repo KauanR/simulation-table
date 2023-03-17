@@ -3,7 +3,7 @@
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/queue-theory/blob/main/README.pt-br.md)
 
 ## Live Demo
-https://kauanr.github.io/queue-theory/
+https://kauanr.github.io/simulation-table/
 
 ## About
 Web application that build up the simulation table. Made as a partial requirement to obtain a Bachelor's degree in the discipline of 'Simulação - URI'.
