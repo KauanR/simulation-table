@@ -1,7 +1,7 @@
 {
-    "name": "queue-theory",
+    "name": "simulation-table",
     "version": "0.1.0",
-    "homepage": "https://kauanr.github.io/queue-theory",
+    "homepage": "https://kauanr.github.io/simulation-table",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.6",
