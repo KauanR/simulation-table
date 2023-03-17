@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/queue-theory/static/css/main.10c670fe.css",
-    "main.js": "/queue-theory/static/js/main.20d1b3c9.js",
-    "static/js/787.a437f32e.chunk.js": "/queue-theory/static/js/787.a437f32e.chunk.js",
-    "index.html": "/queue-theory/index.html",
-    "main.10c670fe.css.map": "/queue-theory/static/css/main.10c670fe.css.map",
-    "main.20d1b3c9.js.map": "/queue-theory/static/js/main.20d1b3c9.js.map",
-    "787.a437f32e.chunk.js.map": "/queue-theory/static/js/787.a437f32e.chunk.js.map"
+    "main.css": "/simulation-table/static/css/main.10c670fe.css",
+    "main.js": "/simulation-table/static/js/main.3760a1bc.js",
+    "static/js/787.e4f37415.chunk.js": "/simulation-table/static/js/787.e4f37415.chunk.js",
+    "index.html": "/simulation-table/index.html",
+    "main.10c670fe.css.map": "/simulation-table/static/css/main.10c670fe.css.map",
+    "main.3760a1bc.js.map": "/simulation-table/static/js/main.3760a1bc.js.map",
+    "787.e4f37415.chunk.js.map": "/simulation-table/static/js/787.e4f37415.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10c670fe.css",
-    "static/js/main.20d1b3c9.js"
+    "static/js/main.3760a1bc.js"
   ]
 }
