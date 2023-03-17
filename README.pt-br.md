@@ -6,7 +6,7 @@
 https://kauanr.github.io/queue-theory/
 
 ## Sobre
-Aplicação web que simula monta a tabela de simulação. Feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
+Aplicação web que monta a tabela de simulação. Feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
 <br/>
 As tecnologias usadas no desenvolvimento foram:
 * [React](https://reactjs.org/)
