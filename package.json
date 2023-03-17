@@ -1,6 +1,7 @@
 {
     "name": "queue-theory",
     "version": "0.1.0",
+    "homepage": "https://kauanr.github.io/queue-theory",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.6",
@@ -32,7 +33,9 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "dev": "react-scripts start",
-        "lint": "npx eslint src/**/*.ts{,x}"
+        "lint": "npx eslint src/**/*.ts{,x}",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -63,6 +66,7 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-promise": "^6.1.1",
         "eslint-plugin-react": "^7.32.2",
+        "gh-pages": "^5.0.0",
         "prettier": "^2.8.4"
     }
 }
