@@ -1,19 +1,32 @@
-div.inputter > div.MuiCardContent-root {
+div#inputter {
+    height: calc(100vh - 3rem);
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
     align-items: center;
 
-    div.title {
-        text-align: center;
+    div.MuiCard-root {
+        width: 100%;
+
+        div.MuiCardContent-root {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            width: 100%;
+            
+        
+            div.title {
+                text-align: center;
+            }
+        
+            form {
+                display: grid;
+                width: 90%;
+                align-items: start;
+                grid-template-columns: 1fr 2fr 2fr;
+                grid-template-rows: auto;
+                gap: 1rem;
+            }
+        }
     }
 
-    form {
-        display: grid;
-        width: 90%;
-        align-items: start;
-        grid-template-columns: 1fr 2fr 2fr;
-        grid-template-rows: auto;
-        gap: 1rem;
-    }
 }
