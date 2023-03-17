@@ -47,7 +47,7 @@ export const Inputter = ({ onSubmit }: Props) => {
                 <CardContent>
                     <div className='title'>
                         <Typography variant='h3'>
-                            Teoria das filas
+                            Tabela de Simulação
                         </Typography>
                         <Typography variant='subtitle1' color='text.secondary'>
                             Para começar, por favor insira os dados necessários logo abaixo.

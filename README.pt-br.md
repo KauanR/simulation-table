@@ -1,4 +1,4 @@
-# Teoria das Filas
+# Tabela de Simulação
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/KauanR/queue-theory/blob/main/README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/queue-theory/blob/main/README.pt-br.md)
 
@@ -6,7 +6,7 @@
 https://kauanr.github.io/queue-theory/
 
 ## Sobre
-Aplicação web que simula a teoria das filas e sua respectiva tabela. Feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
+Aplicação web que simula monta a tabela de simulação. Feita como requisito parcial à obtenção do grau de bacharelado na disciplina de 'Simulação - URI'.
 <br/>
 As tecnologias usadas no desenvolvimento foram:
 * [React](https://reactjs.org/)

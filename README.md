@@ -1,4 +1,4 @@
-# Queue Theory
+# Simulation Table
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/KauanR/queue-theory/blob/main/README.md)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/queue-theory/blob/main/README.pt-br.md)
 
@@ -6,7 +6,7 @@
 https://kauanr.github.io/queue-theory/
 
 ## About
-Web application that simulates the queue theory and its table. Made as a partial requirement to obtain a Bachelor's degree in the discipline of 'Simulação - URI'.
+Web application that build up the simulation table. Made as a partial requirement to obtain a Bachelor's degree in the discipline of 'Simulação - URI'.
 <br>
 The technologies used in the development were:
 * [React](https://reactjs.org/)
