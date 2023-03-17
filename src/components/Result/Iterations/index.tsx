@@ -4,21 +4,10 @@ import './styles.scss';
 
 type Props = {
     iterations: CalcIteration[]
+    sums: Partial<CalcIteration>
 }
 
-export const ResultIterations = ({ iterations }: Props) => {
-
-    const sums: Partial<CalcIteration> = iterations.reduce((acc, cur) => ({
-        serviceTime: acc.serviceTime + cur.serviceTime,
-        customerTimeInQueue: acc.customerTimeInQueue + cur.customerTimeInQueue,
-        customerTimeInSystem: acc.customerTimeInSystem + cur.customerTimeInSystem,
-        operatorFreeTime: acc.operatorFreeTime + cur.operatorFreeTime,
-    }), {
-        serviceTime: 0,
-        customerTimeInQueue: 0,
-        customerTimeInSystem: 0,
-        operatorFreeTime: 0
-    });
+export const ResultIterations = ({ iterations, sums }: Props) => {
 
     return (
         <Card id='result-iterations'>
@@ -27,7 +16,7 @@ export const ResultIterations = ({ iterations }: Props) => {
                     Tabela de Simulação
                 </Typography>
 
-                <Table>
+                <Table size='small'>
                     <colgroup>
                         <col style={{ width:'8%' }}/>
                         <col style={{ width:'12%' }}/>
@@ -69,13 +58,13 @@ export const ResultIterations = ({ iterations }: Props) => {
                             </TableRow>
                         ))}
                         <TableRow className='sums'>
-                            <TableCell></TableCell>
-                            <TableCell></TableCell>
-                            <TableCell></TableCell>
+                            <TableCell className='empty'></TableCell>
+                            <TableCell className='empty'></TableCell>
+                            <TableCell className='empty'></TableCell>
                             <TableCell>{ sums.serviceTime }</TableCell>
-                            <TableCell></TableCell>
+                            <TableCell className='empty'></TableCell>
                             <TableCell>{ sums.customerTimeInQueue }</TableCell>
-                            <TableCell></TableCell>
+                            <TableCell className='empty'></TableCell>
                             <TableCell>{ sums.customerTimeInSystem }</TableCell>
                             <TableCell>{ sums.operatorFreeTime }</TableCell>
                         </TableRow>

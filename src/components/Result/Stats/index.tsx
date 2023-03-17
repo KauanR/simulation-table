@@ -21,15 +21,15 @@ export const ResultStats = ({ stats }: Props) => {
                                 Tempo Médio de Espera na Fila
                             </TableCell>
                             <TableCell className='value'>
-                                { stats.waitTimeAverage } minutos
+                                { stats.waitTimeAverage?.toFixed(2) } minutos
                             </TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell className='label'>
-                                Problabilidade de um cliente esperar na fila
+                                Probabilidade de um cliente esperar na fila
                             </TableCell>
                             <TableCell className='value'>
-                                { stats.waitTimeProbability } %
+                                { stats.waitTimeProbability?.toFixed(2) } %
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -37,7 +37,7 @@ export const ResultStats = ({ stats }: Props) => {
                                 Probabilidade do Operador Livre
                             </TableCell>
                             <TableCell className='value'>
-                                { stats.freeOperatorProbability } %
+                                { stats.freeOperatorProbability?.toFixed(2) } %
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -45,7 +45,7 @@ export const ResultStats = ({ stats }: Props) => {
                                 Tempo Médio de Serviço
                             </TableCell>
                             <TableCell className='value'>
-                                { stats.serviceTimeAverage } minutos
+                                { stats.serviceTimeAverage?.toFixed(2) } minutos
                             </TableCell>
                         </TableRow>
                         <TableRow>
@@ -53,7 +53,7 @@ export const ResultStats = ({ stats }: Props) => {
                                 Tempo Médio Despendido no Sistema
                             </TableCell>
                             <TableCell className='value'>
-                                { stats.spentTimeAverage } minutos
+                                { stats.spentTimeAverage?.toFixed(2) } minutos
                             </TableCell>
                         </TableRow>
                     </TableBody>

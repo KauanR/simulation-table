@@ -1,17 +1,40 @@
 #result-iterations {
     table {
         tr {
-            &.sums td {
-                font-weight: bold;
-            }
-
             th {
-                padding: 0 1rem;
+                background-color: #127acf;
+                font-weight: bolder;
                 text-align: center;
+                border-top: 1px solid #002849;
+                border-left: 1px solid #002849;
+
+                &:last-child {
+                    border-right: 1px solid #002849;
+                }
             }
     
             td {
                 text-align: center;
+                border-left: 1px solid rgb(81, 81, 81);
+                
+                &:last-child {
+                    border-right: 1px solid rgb(81, 81, 81);
+                }
+            }
+
+            &.sums td {
+                font-weight: bold;
+                text-align: center;
+                border: 1px solid rgb(81, 81, 81);
+                border-top: 0;
+
+                &.empty {
+                    border: 0;
+                }
+            }
+
+            &:nth-of-type(odd) {
+                background-color: rgb(81 81 81 / 14%);
             }
         }
     }

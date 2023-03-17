@@ -18,7 +18,7 @@ export const Result = ({ inputs, onClear }: Props) => {
         <div id='result'>
             <ResultHead inputs={inputs} onClear={onClear} />
 
-            <ResultIterations iterations={calc.iterations} />
+            <ResultIterations iterations={calc.iterations} sums={calc.sums} />
 
             <ResultStats stats={calc.stats} />
         </div>
