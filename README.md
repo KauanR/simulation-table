@@ -1,6 +1,6 @@
 # Simulation Table
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/KauanR/queue-theory/blob/main/README.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/queue-theory/blob/main/README.pt-br.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/KauanR/simulation-table/blob/main/README.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/KauanR/simulation-table/blob/main/README.pt-br.md)
 
 ## Live Demo
 https://kauanr.github.io/simulation-table/
